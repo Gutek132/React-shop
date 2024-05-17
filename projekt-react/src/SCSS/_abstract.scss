@@ -1,0 +1,13 @@
+$white: white;
+$black: black;
+$color1: #242424;
+$size20: 20px;
+$padding820: 8px 20px;
+$size24: 24px;
+
+@mixin images {
+    background-position: center;
+    background-repeat: no-repeat;
+    color: $white;
+    font-size: 100px;
+}
