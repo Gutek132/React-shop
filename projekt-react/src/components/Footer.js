@@ -28,34 +28,32 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Contact</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
+            <p>Adress: Warszawska 23/23, Warszawa</p>
+            <p>Phone: +48 345 678 910</p>
+            <p>Hours: 9:00 - 17:00, Mon - Sat</p>
           </div>
           <div className="footer-link-items">
             <h2>About</h2>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
+            <Link to="/">About us</Link>
+            <Link to="/">Privacy Policy</Link>
             <Link to="/">Terms of Service</Link>
+            <Link to="/">Contact us</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>My account</h2>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
+            <Link to="/">Sign In</Link>
+            <Link to="/">View cart</Link>
+            <Link to="/">Track my order</Link>
+            <Link to="/">Help</Link>
           </div>
           <div className="footer-link-items">
-            <h2>Install App</h2>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
+            <h2>Social Media</h2>
+            <Link to="/">Instagram</Link>
+            <Link to="/">Facebook</Link>
+            <Link to="/">Youtube</Link>
+            <Link to="/">Twitter</Link>
           </div>
         </div>
       </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import "./App.css";
-import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/pages/Home";
 import Shop from "./components/pages/Shop";
 import Contact from "./components/pages/Contact";
 import Cart from "./components/pages/Cart";
@@ -15,11 +15,11 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact component={<Home />} />
-          <Route path="/shop" component={Shop} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/cart" component={Cart} />
-          <Route path="/sign-up" component={SignUp} />
+          <Route path="/" element={<Home />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/sign-up" element={<SignUp />} />
         </Routes>
         <Footer />
       </Router>
