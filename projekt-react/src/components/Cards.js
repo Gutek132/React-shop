@@ -4,26 +4,40 @@ import CardItem from "./CardItem";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out these EPIC items</h1>
+      <h1>New collections and promotions</h1>
       <div className="cards-container">
         <div className="cards-wrapper">
           <ul className="cards-items">
             <CardItem
-              src="images/img-9.jpg"
-              text="New shirts albo coś"
+              src="images/shirts.jpg"
+              text="All shirts -40% off"
               label="Offer"
               path="/shop"
             />
             <CardItem
-              src="images/img-9.jpg"
-              text="New shirts albo coś"
+              src="images/trousers.jpg"
+              text="-50% on the second pair of pants"
               label="Offer"
               path="/shop"
             />
+          </ul>
+          <ul className="cards-items">
             <CardItem
-              src="images/img-9.jpg"
-              text="New shirts albo coś"
-              label="Offer"
+              src="../images/spring-col.jpg"
+              text="Spring Collection"
+              label="New"
+              path="/shop"
+            />
+            <CardItem
+              src="images/sport-col.jpg"
+              text="Sport collection"
+              label="New"
+              path="/shop"
+            />
+            <CardItem
+              src="images/kids-col.jpg"
+              text="Kids collection"
+              label="New"
               path="/shop"
             />
           </ul>

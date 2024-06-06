@@ -1,13 +1,17 @@
 $white: white;
 $black: black;
 $color1: #242424;
+$smallfont: 12px;
+$smallfont2: 14px;
 $size20: 20px;
 $padding820: 8px 20px;
 $size24: 24px;
+$loginpurple1: #3c009d;
+$loginpurple2: #4c00b4;
 
 @mixin images {
-    background-position: center;
-    background-repeat: no-repeat;
-    color: $white;
-    font-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: $white;
+  font-size: 100px;
 }

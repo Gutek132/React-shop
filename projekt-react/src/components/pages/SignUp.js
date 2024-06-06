@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
+import LoginSection from "../LoginSection";
 
 function SignUp() {
-  return <></>;
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+  return (
+    <>
+      <LoginSection></LoginSection>
+    </>
+  );
 }
 
 export default SignUp;
